@@ -45,7 +45,6 @@ window.customElements.define('wt-writing-text', class extends LitElement {
             this.text = nodesText;
         }
     }
-
     // noinspection JSUnusedGlobalSymbols
     updated() {
         this.renderRoot.querySelectorAll('.bar').forEach((node, i) => {
